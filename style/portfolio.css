@@ -92,6 +92,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 /* about style */
 .about{
     padding: 130px;
@@ -110,7 +113,27 @@ main{
     margin: 20px;
     border: 1px solid gray;
 }
+/* skills related style */
 #what-i-do-description{
     border: 1px solid gray;
     padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    gap: 20px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.06);
+    
+}
+.skill-description{
+    color: #757575;
+}
+.resume-colum-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
