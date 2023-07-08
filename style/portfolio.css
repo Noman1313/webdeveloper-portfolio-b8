@@ -88,11 +88,29 @@ nav a{
 }
 
 /* main section */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about style */
 .about{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+    border: 1px solid gray;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gray;
+}
+.about-info{
+    text-align: center;
+    margin: 20px;
+    border: 1px solid gray;
+}
+#what-i-do-description{
+    border: 1px solid gray;
+    padding: 30px 150px;
 }
